@@ -1,0 +1,3 @@
+0.18.1 Up to Date
+0.0.2 Improved Locales
+0.0.1 All start here
