@@ -1,6 +1,4 @@
 data:extend({
-   
-
 {
     type = "recipe",
     name = "simple-grapes",
@@ -14,15 +12,14 @@ data:extend({
             {type="item", name="iron-stick", amount=50},
         },
         results = {
- 	    {type="item", name="grapes-70", amount=70},
-	    {type="item", name="grapes-80", amount=20},
-           
+ 	    	{type="item", name="grapes-70", amount_min=70, amount_max=70},
+	    	{type="item", name="grapes-80", amount_min=20, amount_max=20},
             {type="item", name="grapes-70", amount_min=0, amount_max=50},
-	    {type="item", name="grapes-80", amount_min=0, amount_max=40},
+	    	{type="item", name="grapes-80", amount_min=0, amount_max=40},
             {type="item", name="grapes-90", amount_min=0, amount_max=30},
             {type="item", name="grapes-100", amount_min=0, amount_max=20},
             {type="item", name="grapes-110", amount_min=0, amount_max=10},
-            {type="item", name="empty-barrel", amount=20,},
+            {type="item", name="empty-barrel", amount_min=20, amount_max=20},
 			{type="item", name="iron-stick", amount_min=20, amount_max=50},
         },
     icon = "__vintorio__/graphics/grapes-white.png",
@@ -44,13 +41,13 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="fluid", name="liquid-phosphorus-trichloride", amount=100},
-        
+
         {type="fluid", name="water", amount=100},
         },
         results = {
  	    {type="item", name="phosphonic-acid", amount=4},
-	    
-        
+
+
 		{type="fluid", name="liquid-hydrochloric-acid", amount=60},
         },
     icon = "__vintorio__/graphics/phosphonic-acid.png",
@@ -70,12 +67,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="solid-white-phosphorus", amount=10},
-        
+
         {type="fluid", name="gas-chlorine", amount=100},
         },
         results = {
  	    {type="fluid", name="liquid-phosphorus-trichloride", amount=200},
-	    
+
         },
     icon = "__vintorio__/graphics/liquid-phosphorus-trichloride.png",
     icon_size = 32,
@@ -94,12 +91,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="phosphonic-acid", amount=2},
-        
+
         {type="fluid", name="water", amount=80},
         },
         results = {
  	    {type="fluid", name="plant-protection-fluid", amount=100},
-	    
+
         },
     icon = "__vintorio__/graphics/plant-protection-product.png",
     icon_size = 64,
@@ -118,12 +115,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="grapes-70", amount=50},
-        
+
         {type="item", name="steel-chest", amount=1},
         },
         results = {
  	    {type="item", name="crated-grapes-70", amount=1},
-	    
+
         },
     icon = "__vintorio__/graphics/crated-grapes-white.png",
     icon_size = 32,
@@ -142,12 +139,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="grapes-80", amount=50},
-        
+
         {type="item", name="steel-chest", amount=1},
         },
         results = {
  	    {type="item", name="crated-grapes-80", amount=1},
-	    
+
         },
     icon = "__vintorio__/graphics/crated-grapes-white.png",
     icon_size = 32,
@@ -166,12 +163,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="grapes-90", amount=50},
-        
+
         {type="item", name="steel-chest", amount=1},
         },
         results = {
  	    {type="item", name="crated-grapes-90", amount=1},
-	    
+
         },
     icon = "__vintorio__/graphics/crated-grapes-white.png",
     icon_size = 32,
@@ -190,12 +187,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="grapes-100", amount=50},
-        
+
         {type="item", name="steel-chest", amount=1},
         },
         results = {
  	    {type="item", name="crated-grapes-100", amount=1},
-	    
+
         },
     icon = "__vintorio__/graphics/crated-grapes-white.png",
     icon_size = 32,
@@ -214,12 +211,12 @@ data:extend({
     energy_required = 5,
   ingredients = {
             {type="item", name="grapes-110", amount=50},
-        
+
         {type="item", name="steel-chest", amount=1},
         },
         results = {
  	    {type="item", name="crated-grapes-110", amount=1},
-	    
+
         },
     icon = "__vintorio__/graphics/crated-grapes-white.png",
     icon_size = 32,
@@ -229,7 +226,7 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
+
   {
     type = "recipe",
     name = "simple-grapes-grinding-70",
@@ -239,13 +236,13 @@ data:extend({
     energy_required = 15,
   ingredients = {
             {type="item", name="crated-grapes-70", amount=1},
-           
+
         },
         results = {
  	    {type="fluid", name="mashed-grapes-70", amount=500},
 	    {type="item", name="steel-chest", amount=1},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-2.png",
     icon_size = 64,
@@ -264,13 +261,13 @@ data:extend({
     energy_required = 15,
   ingredients = {
             {type="item", name="crated-grapes-80", amount=1},
-           
+
         },
         results = {
  	    {type="fluid", name="mashed-grapes-80", amount=500},
 	    {type="item", name="steel-chest", amount=1},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-2.png",
     icon_size = 64,
@@ -279,7 +276,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  },  
+  },
 {
     type = "recipe",
     name = "simple-grapes-grinding-90",
@@ -289,13 +286,13 @@ data:extend({
     energy_required = 15,
   ingredients = {
             {type="item", name="crated-grapes-90", amount=1},
-           
+
         },
         results = {
  	    {type="fluid", name="mashed-grapes-90", amount=500},
 	    {type="item", name="steel-chest", amount=1},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-2.png",
     icon_size = 64,
@@ -304,7 +301,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  },  
+  },
 {
     type = "recipe",
     name = "simple-grapes-grinding-100",
@@ -314,13 +311,13 @@ data:extend({
     energy_required = 15,
   ingredients = {
             {type="item", name="crated-grapes-100", amount=1},
-           
+
         },
         results = {
  	    {type="fluid", name="mashed-grapes-100", amount=500},
 	    {type="item", name="steel-chest", amount=1},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-2.png",
     icon_size = 64,
@@ -329,7 +326,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  },  
+  },
 {
     type = "recipe",
     name = "simple-grapes-grinding-110",
@@ -339,13 +336,13 @@ data:extend({
     energy_required = 15,
   ingredients = {
             {type="item", name="crated-grapes-110", amount=1},
-           
+
         },
         results = {
  	    {type="fluid", name="mashed-grapes-110", amount=500},
 	    {type="item", name="steel-chest", amount=1},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-2.png",
     icon_size = 64,
@@ -354,7 +351,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
 {
     type = "recipe",
     name = "mashed-grapes-treating-70",
@@ -368,9 +365,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="sulfurized-mashed-grapes-70", amount=200},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-3.png",
     icon_size = 64,
@@ -379,7 +376,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  },  
+  },
 {
     type = "recipe",
     name = "mashed-grapes-treating-80",
@@ -393,9 +390,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="sulfurized-mashed-grapes-80", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-3.png",
     icon_size = 64,
@@ -418,9 +415,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="sulfurized-mashed-grapes-90", amount=200},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-3.png",
     icon_size = 64,
@@ -443,9 +440,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="sulfurized-mashed-grapes-100", amount=200},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-3.png",
     icon_size = 64,
@@ -468,9 +465,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="sulfurized-mashed-grapes-110", amount=200},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-3.png",
     icon_size = 64,
@@ -479,7 +476,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  },  
+  },
    {
     type = "recipe",
     name = "grape-pressing-70",
@@ -494,8 +491,8 @@ data:extend({
         results = {
  	    {type="fluid", name="grape-must-70", amount=550},
 	    {type="item", name="grapes-pulp", amount=5},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-4.png",
     icon_size = 64,
@@ -504,7 +501,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-pressing-80",
@@ -519,8 +516,8 @@ data:extend({
         results = {
  	    {type="fluid", name="grape-must-80", amount=550},
 	    {type="item", name="grapes-pulp", amount=5},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-4.png",
     icon_size = 64,
@@ -543,8 +540,8 @@ data:extend({
         results = {
  	    {type="fluid", name="grape-must-90", amount=550},
 	    {type="item", name="grapes-pulp", amount=5},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-4.png",
     icon_size = 64,
@@ -567,8 +564,8 @@ data:extend({
         results = {
  	    {type="fluid", name="grape-must-100", amount=550},
 	    {type="item", name="grapes-pulp", amount=5},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-4.png",
     icon_size = 64,
@@ -591,8 +588,8 @@ data:extend({
         results = {
  	    {type="fluid", name="grape-must-110", amount=550},
 	    {type="item", name="grapes-pulp", amount=5},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-4.png",
     icon_size = 64,
@@ -601,7 +598,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-70",
@@ -611,13 +608,13 @@ data:extend({
     energy_required = 100,
   ingredients = {
             {type="fluid", name="grape-must-70", amount=30000},
-           
+
         },
         results = {
  	    {type="fluid", name="cleared-grape-must-70", amount=24000},
 	    {type="fluid", name="grape-must-lees-70", amount=1000},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -626,7 +623,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-80",
@@ -636,13 +633,13 @@ data:extend({
     energy_required = 100,
   ingredients = {
             {type="fluid", name="grape-must-80", amount=10000},
-           
+
         },
         results = {
  	    {type="fluid", name="cleared-grape-must-80", amount=9000},
 	    {type="fluid", name="grape-must-lees-80", amount=1000},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -651,7 +648,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-90",
@@ -661,13 +658,13 @@ data:extend({
     energy_required = 100,
   ingredients = {
             {type="fluid", name="grape-must-90", amount=5000},
-           
+
         },
         results = {
  	    {type="fluid", name="cleared-grape-must-90", amount=4500},
 	    {type="fluid", name="grape-must-lees-90", amount=500},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -676,7 +673,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-100",
@@ -686,13 +683,13 @@ data:extend({
     energy_required = 100,
   ingredients = {
             {type="fluid", name="grape-must-100", amount=1000},
-           
+
         },
         results = {
  	    {type="fluid", name="cleared-grape-must-100", amount=900},
 	    {type="fluid", name="grape-must-lees-100", amount=100},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -701,7 +698,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-110",
@@ -711,13 +708,13 @@ data:extend({
     energy_required = 100,
   ingredients = {
             {type="fluid", name="grape-must-110", amount=1000},
-           
+
         },
         results = {
  	    {type="fluid", name="cleared-grape-must-110", amount=900},
 	    {type="fluid", name="grape-must-lees-110", amount=100},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -738,12 +735,12 @@ data:extend({
             {type="fluid", name="grape-must-lees-70", amount=200},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-grape-must-70", amount=100},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=10},  
-          
+         {type="item", name="solid-lees", amount=10},
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -752,7 +749,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  },  
+  },
   {
     type = "recipe",
     name = "grape-must-lees-filtration-80",
@@ -764,12 +761,12 @@ data:extend({
             {type="fluid", name="grape-must-lees-80", amount=200},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-grape-must-80", amount=100},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=10},  
-          
+         {type="item", name="solid-lees", amount=10},
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -790,12 +787,12 @@ data:extend({
             {type="fluid", name="grape-must-lees-90", amount=200},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-grape-must-90", amount=100},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=10},  
-          
+         {type="item", name="solid-lees", amount=10},
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -816,12 +813,12 @@ data:extend({
             {type="fluid", name="grape-must-lees-100", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-grape-must-100", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -842,12 +839,12 @@ data:extend({
             {type="fluid", name="grape-must-lees-110", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-grape-must-110", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -871,9 +868,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-grape-must-70", amount=500},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-6.png",
     icon_size = 64,
@@ -882,7 +879,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-treatment-80",
@@ -897,9 +894,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-grape-must-80", amount=500},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-6.png",
     icon_size = 64,
@@ -908,7 +905,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-treatment-90",
@@ -923,9 +920,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-grape-must-90", amount=500},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-6.png",
     icon_size = 64,
@@ -934,7 +931,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-treatment-100",
@@ -949,9 +946,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-grape-must-100", amount=500},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-6.png",
     icon_size = 64,
@@ -960,7 +957,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-treatment-110",
@@ -975,9 +972,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-grape-must-110", amount=500},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-6.png",
     icon_size = 64,
@@ -986,7 +983,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-fermentation-70",
@@ -1003,7 +1000,7 @@ data:extend({
  	    {type="fluid", name="young-wine-70", amount=25000},
 	    {type="fluid", name="liquid-coolant-used", amount=100},
            {type="fluid", name="gas-carbon-dioxide", amount=100},
-          
+
         },
     icon = "__vintorio__/graphics/grapes-white-7.png",
     icon_size = 64,
@@ -1012,7 +1009,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-fermentation-80",
@@ -1030,7 +1027,7 @@ data:extend({
  	    {type="fluid", name="young-wine-80", amount=25000},
 	    {type="fluid", name="liquid-coolant-used", amount=100},
            {type="fluid", name="gas-carbon-dioxide", amount=100},
-          
+
         },
     icon = "__vintorio__/graphics/grapes-white-7.png",
     icon_size = 64,
@@ -1039,7 +1036,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-fermentation-90",
@@ -1055,8 +1052,8 @@ data:extend({
         results = {
  	    {type="fluid", name="young-wine-90", amount=500},
 	    {type="fluid", name="liquid-coolant-used", amount=100},
-          {type="fluid", name="gas-carbon-dioxide", amount=20}, 
-          
+          {type="fluid", name="gas-carbon-dioxide", amount=20},
+
         },
     icon = "__vintorio__/graphics/grapes-white-7.png",
     icon_size = 64,
@@ -1065,7 +1062,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-fermentation-100",
@@ -1078,12 +1075,12 @@ data:extend({
            {type="fluid", name="liquid-coolant", amount=100},
         {type="item", name="wine-yeast", amount=20},
 		},
-		
+
         results = {
  	    {type="fluid", name="young-wine-100", amount=1000},
 	    {type="fluid", name="liquid-coolant-used", amount=100},
-          {type="fluid", name="gas-carbon-dioxide", amount=10}, 
-          
+          {type="fluid", name="gas-carbon-dioxide", amount=10},
+
         },
     icon = "__vintorio__/graphics/grapes-white-7.png",
     icon_size = 64,
@@ -1092,7 +1089,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-fermentation-110",
@@ -1108,8 +1105,8 @@ data:extend({
         results = {
  	    {type="fluid", name="young-wine-110", amount=1000},
 	    {type="fluid", name="liquid-coolant-used", amount=100},
-         {type="fluid", name="gas-carbon-dioxide", amount=10},  
-          
+         {type="fluid", name="gas-carbon-dioxide", amount=10},
+
         },
     icon = "__vintorio__/graphics/grapes-white-7.png",
     icon_size = 64,
@@ -1118,7 +1115,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-young-wine-70",
@@ -1133,8 +1130,8 @@ data:extend({
         results = {
  	    {type="fluid", name="cleared-young-wine-70", amount=18000},
 	    {type="fluid", name="wine-yeast-70", amount=2000},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1158,8 +1155,8 @@ data:extend({
         results = {
  	    {type="fluid", name="cleared-young-wine-80", amount=4500},
 	    {type="fluid", name="wine-yeast-80", amount=500},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1183,8 +1180,8 @@ data:extend({
         results = {
  	    {type="fluid", name="cleared-young-wine-90", amount=4500},
 	    {type="fluid", name="wine-yeast-90", amount=500},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1208,8 +1205,8 @@ data:extend({
         results = {
  	    {type="fluid", name="cleared-young-wine-100", amount=900},
 	    {type="fluid", name="wine-yeast-100", amount=100},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1233,8 +1230,8 @@ data:extend({
         results = {
  	    {type="fluid", name="cleared-young-wine-110", amount=900},
 	    {type="fluid", name="wine-yeast-110", amount=100},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1255,12 +1252,12 @@ data:extend({
             {type="fluid", name="wine-yeast-70", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-young-wine-70", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1281,12 +1278,12 @@ data:extend({
             {type="fluid", name="wine-yeast-80", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-young-wine-80", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1307,12 +1304,12 @@ data:extend({
             {type="fluid", name="wine-yeast-90", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-young-wine-90", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1333,12 +1330,12 @@ data:extend({
             {type="fluid", name="wine-yeast-100", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-young-wine-100", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1359,12 +1356,12 @@ data:extend({
             {type="fluid", name="wine-yeast-110", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-young-wine-110", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -1389,9 +1386,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-young-wine-70", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-9.png",
     icon_size = 64,
@@ -1416,9 +1413,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-young-wine-80", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-9.png",
     icon_size = 64,
@@ -1443,9 +1440,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-young-wine-90", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-9.png",
     icon_size = 64,
@@ -1470,9 +1467,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-young-wine-100", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-9.png",
     icon_size = 64,
@@ -1482,7 +1479,7 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
+
   {
     type = "recipe",
     name = "cleared-young-wine-treatment-110",
@@ -1498,9 +1495,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-young-wine-110", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-9.png",
     icon_size = 64,
@@ -1522,11 +1519,11 @@ data:extend({
            {type="item", name="filter-ceramic", amount=1},
 		   {type="fluid", name="liquid-coolant", amount=100},
         },
-		
+
         results = {
  	    {type="fluid", name="wine-70", amount=200},
 	    {type="item", name="filter-ceramic-used", amount=1},
-           
+
           {type="fluid", name="liquid-coolant-used", amount=100},
         },
     icon = "__vintorio__/graphics/grapes-white-10.png",
@@ -1549,12 +1546,12 @@ data:extend({
            {type="item", name="filter-ceramic", amount=1},
 		   {type="fluid", name="liquid-coolant", amount=100},
         },
-		
+
         results = {
  	    {type="fluid", name="wine-80", amount=200},
 	    {type="item", name="filter-ceramic-used", amount=1},
-          
-         {type="fluid", name="liquid-coolant-used", amount=100}, 
+
+         {type="fluid", name="liquid-coolant-used", amount=100},
         },
     icon = "__vintorio__/graphics/grapes-white-10.png",
     icon_size = 64,
@@ -1576,11 +1573,11 @@ data:extend({
            {type="item", name="filter-ceramic", amount=1},
 		   {type="fluid", name="liquid-coolant", amount=100},
         },
-		
+
         results = {
  	    {type="fluid", name="wine-90", amount=200},
 	    {type="item", name="filter-ceramic-used", amount=1},
-          
+
           {type="fluid", name="liquid-coolant-used", amount=100},
         },
     icon = "__vintorio__/graphics/grapes-white-10.png",
@@ -1603,12 +1600,12 @@ data:extend({
            {type="item", name="filter-ceramic", amount=1},
 		   {type="fluid", name="liquid-coolant", amount=100},
         },
-		
+
         results = {
  	    {type="fluid", name="wine-100", amount=200},
 	    {type="item", name="filter-ceramic-used", amount=1},
-           
-         {type="fluid", name="liquid-coolant-used", amount=100}, 
+
+         {type="fluid", name="liquid-coolant-used", amount=100},
         },
     icon = "__vintorio__/graphics/grapes-white-10.png",
     icon_size = 64,
@@ -1630,12 +1627,12 @@ data:extend({
            {type="item", name="filter-ceramic", amount=1},
 		   {type="fluid", name="liquid-coolant", amount=100},
         },
-		
+
         results = {
  	    {type="fluid", name="wine-110", amount=200},
 	    {type="item", name="filter-ceramic-used", amount=1},
-           
-         {type="fluid", name="liquid-coolant-used", amount=100}, 
+
+         {type="fluid", name="liquid-coolant-used", amount=100},
         },
     icon = "__vintorio__/graphics/grapes-white-10.png",
     icon_size = 64,
@@ -1659,9 +1656,9 @@ data:extend({
         {type="item", name="wine-label", amount=1},
         },
         results = {
- 	    
+
 	    {type="item", name="white-wine-bottle-70", amount=1},
-          
+
         },
     icon = "__vintorio__/graphics/white-wine-bottle.png",
     icon_size = 64,
@@ -1685,9 +1682,9 @@ data:extend({
         {type="item", name="wine-label", amount=1},
         },
         results = {
- 	    
+
 	    {type="item", name="white-wine-bottle-80", amount=1},
-          
+
         },
     icon = "__vintorio__/graphics/white-wine-bottle.png",
     icon_size = 64,
@@ -1711,9 +1708,9 @@ data:extend({
         {type="item", name="wine-label", amount=1},
         },
         results = {
- 	    
+
 	    {type="item", name="white-wine-bottle-90", amount=1},
-          
+
         },
     icon = "__vintorio__/graphics/white-wine-bottle.png",
     icon_size = 64,
@@ -1737,9 +1734,9 @@ data:extend({
         {type="item", name="wine-label", amount=1},
         },
         results = {
- 	    
+
 	    {type="item", name="white-wine-bottle-100", amount=1},
-          
+
         },
     icon = "__vintorio__/graphics/white-wine-bottle.png",
     icon_size = 64,
@@ -1762,11 +1759,11 @@ data:extend({
 		   {type="item", name="empty-bottle", amount=1},
 		   {type="item", name="wine-label", amount=1},
         },
-		
+
         results = {
- 	    
+
 	    {type="item", name="white-wine-bottle-110", amount=1},
-          
+
         },
     icon = "__vintorio__/graphics/white-wine-bottle.png",
     icon_size = 64,
@@ -1776,8 +1773,8 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
-  
+
+
   {
     type = "recipe",
     name = "ethanol-distillation-70",
@@ -1787,13 +1784,13 @@ data:extend({
     energy_required = 10,
   ingredients = {
             {type="fluid", name="wine-70", amount=200},
-           
+
         },
         results = {
  	    {type="fluid", name="gas-ethanol", amount=80},
 	    {type="fluid", name="water", amount=120},
-           
-          
+
+
         },
     icon = "__angelsbioprocessing__/graphics/icons/gas-ethanol.png",
     icon_size = 32,
@@ -1812,13 +1809,13 @@ data:extend({
     energy_required = 10,
   ingredients = {
             {type="fluid", name="wine-80", amount=200},
-           
+
         },
         results = {
  	    {type="fluid", name="gas-ethanol", amount=90},
 	    {type="fluid", name="water", amount=110},
-           
-          
+
+
         },
     icon = "__angelsbioprocessing__/graphics/icons/gas-ethanol.png",
     icon_size = 32,
@@ -1828,15 +1825,15 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
    {
     type = "recipe",
     name = "cork-bark",
@@ -1849,11 +1846,11 @@ data:extend({
            {type="item", name="solid-fertilizer", amount=20},
 		   {type="fluid", name="water", amount=100},
         },
-		
+
         results = {
- 	    
-         {type="item", name="cork-bark", amount=15},  
-          
+
+         {type="item", name="cork-bark", amount=15},
+
         },
     icon = "__vintorio__/graphics/cork-bark.png",
     icon_size = 64,
@@ -1871,14 +1868,14 @@ data:extend({
     enabled = "false",
     energy_required = 10,
   ingredients = {
-            {type="item", name="cork-bark", amount=1},  
-          
+            {type="item", name="cork-bark", amount=1},
+
         },
-		
+
         results = {
- 	    
-         {type="item", name="wine-cork", amount=60},  
-          
+
+         {type="item", name="wine-cork", amount=60},
+
         },
     icon = "__vintorio__/graphics/wine-cork.png",
     icon_size = 64,
@@ -1896,14 +1893,14 @@ data:extend({
     enabled = "false",
     energy_required = 10,
   ingredients = {
-            {type="item", name="solid-paper", amount=4},  
-          
+            {type="item", name="solid-paper", amount=4},
+
         },
-		
+
         results = {
- 	    
-         {type="item", name="wine-label", amount=8},  
-          
+
+         {type="item", name="wine-label", amount=8},
+
         },
     icon = "__vintorio__/graphics/wine-label.png",
     icon_size = 64,
@@ -1913,9 +1910,9 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
-  
-  
+
+
+
   {
     type = "recipe",
     name = "yeast-breeding",
@@ -1930,9 +1927,9 @@ data:extend({
         },
         results = {
  	    {type="item", name="wine-yeast", amount=10},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/wine-yeast.png",
     icon_size = 64,
@@ -1941,7 +1938,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "rectified-grape-must-70",
@@ -1953,10 +1950,10 @@ data:extend({
             {type="fluid", name="grape-must-70", amount=800},
            },
         results = {
- 	    
+
 	    {type="fluid", name="rectified-grape-must", amount=100},
-         {type="fluid", name="water", amount=200},  
-          
+         {type="fluid", name="water", amount=200},
+
         },
     icon = "__vintorio__/graphics/rectified-grape-must.png",
     icon_size = 64,
@@ -1965,7 +1962,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "rectified-grape-must-80",
@@ -1977,10 +1974,10 @@ data:extend({
             {type="fluid", name="grape-must-80", amount=800},
            },
         results = {
- 	    
+
 	    {type="fluid", name="rectified-grape-must", amount=120},
-         {type="fluid", name="water", amount=200},  
-          
+         {type="fluid", name="water", amount=200},
+
         },
     icon = "__vintorio__/graphics/rectified-grape-must.png",
     icon_size = 64,
@@ -1989,7 +1986,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "rectified-grape-must-90",
@@ -2001,10 +1998,10 @@ data:extend({
             {type="fluid", name="grape-must-90", amount=800},
            },
         results = {
- 	    
+
 	    {type="fluid", name="rectified-grape-must", amount=140},
-         {type="fluid", name="water", amount=200},  
-          
+         {type="fluid", name="water", amount=200},
+
         },
     icon = "__vintorio__/graphics/rectified-grape-must.png",
     icon_size = 64,
@@ -2025,10 +2022,10 @@ data:extend({
             {type="fluid", name="grape-must-100", amount=800},
            },
         results = {
- 	    
+
 	    {type="fluid", name="rectified-grape-must", amount=160},
-         {type="fluid", name="water", amount=200},  
-          
+         {type="fluid", name="water", amount=200},
+
         },
     icon = "__vintorio__/graphics/rectified-grape-must.png",
     icon_size = 64,
@@ -2049,10 +2046,10 @@ data:extend({
             {type="fluid", name="grape-must-110", amount=800},
            },
         results = {
- 	    
+
 	    {type="fluid", name="rectified-grape-must", amount=180},
-         {type="fluid", name="water", amount=200},  
-          
+         {type="fluid", name="water", amount=200},
+
         },
     icon = "__vintorio__/graphics/rectified-grape-must.png",
     icon_size = 64,
@@ -2074,10 +2071,10 @@ data:extend({
 			 {type="item", name="bio-raw-meat", amount=2}
            },
         results = {
- 	    
-	    
-         {type="item", name="gelatine", amount=14},  
-          
+
+
+         {type="item", name="gelatine", amount=14},
+
         },
     icon = "__vintorio__/graphics/gelatine.png",
     icon_size = 64,
@@ -2087,7 +2084,7 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
+
   {
     type = "recipe",
     name = "composting-solid-lees",
@@ -2096,15 +2093,15 @@ data:extend({
     enabled = "false",
     energy_required = 10,
   ingredients = {
-  
+
             {type="item", name="solid-lees", amount=8},
-           
+
         },
         results = {
  	    {type="item", name="solid-compost", amount=1},
-		
-	   
-          
+
+
+
         },
     icon = "__vintorio__/graphics/solid-compost.png",
     icon_size = 32,
@@ -2122,15 +2119,15 @@ data:extend({
     enabled = "false",
     energy_required = 10,
   ingredients = {
-  
+
             {type="item", name="grapes-pulp", amount=8},
-           
+
         },
         results = {
  	    {type="item", name="solid-compost", amount=1},
-		
-	   
-          
+
+
+
         },
     icon = "__vintorio__/graphics/solid-compost.png",
     icon_size = 32,
@@ -2148,15 +2145,15 @@ data:extend({
     enabled = "false",
     energy_required = 3,
   ingredients = {
-  
+
             {type="item", name="grapes-pulp", amount=10},
-           
+
         },
         results = {
  	    {type="item", name="cellulose-fiber", amount=2},
-		
-	   
-          
+
+
+
         },
     icon = "__angelsbioprocessing__/graphics/icons/cellulose-fiber.png",
     icon_size = 32,
@@ -2176,14 +2173,14 @@ data:extend({
   ingredients = {
   {type="fluid", name="water", amount=50},
             {type="item", name="solid-clay", amount=10},
-           
+
         },
         results = {
  	    {type="item", name="bentonit", amount_min=1, amount_max=14},
 		{type="fluid", name="water-thin-mud", amount=20},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/bentonit.png",
     icon_size = 64,
@@ -2192,7 +2189,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "empty-bottle",
@@ -2202,12 +2199,12 @@ data:extend({
     energy_required = 0.5,
   ingredients = {
             {type="item", name="glass", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="empty-bottle", amount=1},
-	    
+
         },
     icon = "__vintorio__/graphics/empty-bottle.png",
     icon_size = 64,
@@ -2226,8 +2223,8 @@ data:extend({
     energy_required = 0.2,
   ingredients = {
             {type="item", name="white-wine-bottle-80", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="p-point", amount_min=1, amount_max=4},
@@ -2250,8 +2247,8 @@ data:extend({
     energy_required = 0.2,
   ingredients = {
             {type="item", name="white-wine-bottle-70", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="p-point", amount_min=1, amount_max=2},
@@ -2274,8 +2271,8 @@ data:extend({
     energy_required = 0.2,
   ingredients = {
             {type="item", name="white-wine-bottle-90", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="p-point", amount_min=1, amount_max=6},
@@ -2298,8 +2295,8 @@ data:extend({
     energy_required = 0.2,
   ingredients = {
             {type="item", name="white-wine-bottle-100", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="p-point", amount_min=2, amount_max=8},
@@ -2322,8 +2319,8 @@ data:extend({
     energy_required = 0.2,
   ingredients = {
             {type="item", name="white-wine-bottle-110", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="p-point", amount_min=4, amount_max=10},
@@ -2346,8 +2343,8 @@ data:extend({
     energy_required = 0.5,
   ingredients = {
             {type="item", name="p-point", amount=10},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="angels-ore1", amount=1, probability=0.8},
@@ -2356,9 +2353,9 @@ data:extend({
 		{type="item", name="angels-ore4", amount=1, probability=0.8},
 		{type="item", name="angels-ore5", amount=1, probability=0.8},
 		{type="item", name="angels-ore6", amount=1, probability=0.8},
-		
+
 		{type="item", name="coal", amount=1, probability=0.8},
-		
+
         },
     icon = "__vintorio__/graphics/p-point.png",
     icon_size = 64,
@@ -2368,8 +2365,8 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
-  
+
+
  -- {type="item", name="clowns-resource2", amount=1, probability=0.1},
 	--	{type="item", name="clowns-ore1", amount=1, probability=0.1},
 	--	{type="item", name="clowns-ore2", amount=1, probability=0.1},
@@ -2377,8 +2374,8 @@ data:extend({
 	--	{type="item", name="clowns-ore4", amount=1, probability=0.1},
 	--	{type="item", name="clowns-ore5", amount=1, probability=0.1},
 	--	{type="item", name="clowns-ore6", amount=1, probability=0.1},
-  
-  
+
+
  -- {
  --   type = "recipe",
  --   name = "processing-tank",
@@ -2442,8 +2439,8 @@ data:extend({
 	group = "petrochem-vinification",
 	order = "f",
   },
-  
-  
+
+
   --chaptalisation
   {
     type = "recipe",
@@ -2458,9 +2455,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="grape-must-70-c", amount=3000},
-	 
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-4.png",
     icon_size = 64,
@@ -2469,7 +2466,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-70-c",
@@ -2479,13 +2476,13 @@ data:extend({
     energy_required = 100,
   ingredients = {
             {type="fluid", name="grape-must-70-c", amount=30000},
-           
+
         },
         results = {
  	    {type="fluid", name="cleared-grape-must-70-c", amount=24000},
 	    {type="fluid", name="grape-must-lees-70-c", amount=1000},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -2494,7 +2491,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-lees-filtration-70-c",
@@ -2506,12 +2503,12 @@ data:extend({
             {type="fluid", name="grape-must-lees-70-c", amount=200},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-grape-must-70-c", amount=100},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=10},  
-          
+         {type="item", name="solid-lees", amount=10},
+
         },
     icon = "__vintorio__/graphics/grapes-white-5.png",
     icon_size = 64,
@@ -2520,7 +2517,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "sediment-grape-must-treatment-70-c",
@@ -2535,9 +2532,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-grape-must-70-c", amount=500},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-6.png",
     icon_size = 64,
@@ -2546,7 +2543,7 @@ data:extend({
     {
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
-  }, 
+  },
   {
     type = "recipe",
     name = "grape-must-fermentation-70-c",
@@ -2563,7 +2560,7 @@ data:extend({
  	    {type="fluid", name="young-wine-70-c", amount=25000},
 	    {type="fluid", name="liquid-coolant-used", amount=100},
            {type="fluid", name="gas-carbon-dioxide", amount=100},
-          
+
         },
     icon = "__vintorio__/graphics/grapes-white-7.png",
     icon_size = 64,
@@ -2587,8 +2584,8 @@ data:extend({
         results = {
  	    {type="fluid", name="cleared-young-wine-70-c", amount=18000},
 	    {type="fluid", name="wine-yeast-70-c", amount=2000},
-           
-          
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -2609,12 +2606,12 @@ data:extend({
             {type="fluid", name="wine-yeast-70-c", amount=100},
            {type="item", name="filter-ceramic", amount=1},
         },
-		
+
         results = {
  	    {type="fluid", name="cleared-young-wine-70-c", amount=50},
 	    {type="item", name="filter-ceramic-used", amount=1},
-         {type="item", name="solid-lees", amount=5},  
-          
+         {type="item", name="solid-lees", amount=5},
+
         },
     icon = "__vintorio__/graphics/grapes-white-8.png",
     icon_size = 64,
@@ -2639,9 +2636,9 @@ data:extend({
         },
         results = {
  	    {type="fluid", name="treated-cleared-young-wine-70-c", amount=1000},
-	    
-           
-          
+
+
+
         },
     icon = "__vintorio__/graphics/grapes-white-9.png",
     icon_size = 64,
@@ -2663,11 +2660,11 @@ data:extend({
            {type="item", name="filter-ceramic", amount=1},
 		   {type="fluid", name="liquid-coolant", amount=100},
         },
-		
+
         results = {
  	    {type="fluid", name="wine-70-c", amount=200},
 	    {type="item", name="filter-ceramic-used", amount=1},
-           
+
           {type="fluid", name="liquid-coolant-used", amount=100},
         },
     icon = "__vintorio__/graphics/grapes-white-10.png",
@@ -2692,9 +2689,9 @@ data:extend({
         {type="item", name="wine-label", amount=1},
         },
         results = {
- 	    
+
 	    {type="item", name="white-wine-bottle-70-c", amount=1},
-          
+
         },
     icon = "__vintorio__/graphics/white-wine-bottle.png",
     icon_size = 64,
@@ -2713,8 +2710,8 @@ data:extend({
     energy_required = 0.2,
   ingredients = {
             {type="item", name="white-wine-bottle-70-c", amount=1},
-            
-       
+
+
         },
         results = {
  	    {type="item", name="p-point", amount_min=2, amount_max=6},
@@ -2728,7 +2725,7 @@ data:extend({
       primary = {r = 65/255, g = 83/255, b = 39/255, a = 1},
     },
   },
-  
-  
-  
+
+
+
 })
